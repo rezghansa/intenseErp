@@ -28,3 +28,12 @@ hs_err_pid*
 /IntenseERPSolution/IntenseERPSolution-ejb/dist/
 /IntenseERPSolution/IntenseERPSolution-war/build/
 /IntenseERPSolution/IntenseERPSolution-war/dist/
+/erpsolution/nbproject/private/
+/erpsolution/erpsolution-war/nbproject/private/
+/erpsolution/erpsolution-ejb/nbproject/private/
+/erpsolution/erpsolution-ejb/build/
+/erpsolution/erpsolution-ejb/dist/
+/erpsolution/erpsolution-war/build/
+/erpsolution/build/
+/erpsolution/dist/
+/erpsolution/erpsolution-war/dist/
