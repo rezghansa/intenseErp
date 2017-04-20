@@ -22,6 +22,16 @@ import model.ProductFacade;
 public class productController {
     @EJB
     private ProductFacade productFacade;
+    private Product p = new Product();
+
+    public Product getP() {
+        return p;
+    }
+
+    public void setP(Product p) {
+        this.p = p;
+    }
+    
     
     
     public productController() {
@@ -32,4 +42,24 @@ public class productController {
         return this.productFacade.findAll();
     }
     
+    public String add(){
+        this.productFacade.create(this.p);
+        this.p = new Product();
+        return "index";
+    }
+    
+    public void delete(Product p){
+        this.productFacade.remove(p);
+    }
+    
+    public String edit(Product p){
+        this.p = p;
+        return "edit";
+    }
+    
+    public String edit(){
+        this.productFacade.edit(this.p);
+        this.p = new Product();
+        return "index";
+    }
 }
