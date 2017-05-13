@@ -37,3 +37,6 @@ hs_err_pid*
 /erpsolution/build/
 /erpsolution/dist/
 /erpsolution/erpsolution-war/dist/
+/RESTEWebService/nbproject/private/
+/RESTEWebService/build/
+/RESTEWebService/dist/
