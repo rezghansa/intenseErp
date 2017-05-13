@@ -45,7 +45,7 @@ public class productController {
     public String add(){
         this.productFacade.create(this.p);
         this.p = new Product();
-        return "index";
+        return "/index?faces-redirect=true";
     }
     
     public void delete(Product p){
@@ -54,12 +54,12 @@ public class productController {
     
     public String edit(Product p){
         this.p = p;
-        return "edit";
+        return "components/edit";
     }
     
     public String edit(){
         this.productFacade.edit(this.p);
         this.p = new Product();
-        return "index";
+        return "/index?faces-redirect=true";
     }
 }

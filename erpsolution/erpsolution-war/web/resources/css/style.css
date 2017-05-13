@@ -1,0 +1,59 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : May 7, 2017, 12:31:11 PM
+    Author     : hansa
+*/
+.header{
+    border: 1px solid red;
+}
+
+.companyDetails{
+    border: 1px solid green;
+    height: 8vh; 
+}
+
+.topmenu{
+    border: 1px solid green;
+    height: 5vh; 
+}
+
+.footer{
+    position: relative;
+    bottom: 0;
+    right: -165px;
+    width: 85vw;
+    border: 1px solid #73AD21;
+}
+
+.container{
+
+}
+
+.content{
+    border: 1px solid green;
+    position: relative;
+    right: -165px;
+    width: 85vw;
+    height: 75vh;
+	
+}
+
+.contentDiv{
+    margin: auto;
+    position: relative;
+    right: 10%;
+    
+}
+
+
+.navigationmenu{
+    float: left;
+    width: 10vw;
+    height: 82vh;
+    border: 1px solid green;
+    margin: 5px;
+}
